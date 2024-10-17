@@ -39,7 +39,7 @@ void PrintString(const UnicodeString& text, int32_t start, int32_t limit) {
   u_printf("%S|\n", chunk.getTerminatedBuffer());
 }
 
-int main() {
+int main(void) {
   const char *locale = "en_US";
   UErrorCode status = U_ZERO_ERROR;
   BreakIterator *lineIterator = BreakIterator::createLineInstance(locale, status);

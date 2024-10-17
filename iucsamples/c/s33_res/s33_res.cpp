@@ -40,7 +40,7 @@ void show(const char *loc) {
   return;
 }
 
-int main()
+int main(void)
 {
 
   show("es");

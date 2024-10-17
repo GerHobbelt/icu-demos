@@ -22,7 +22,7 @@
     return 1; \
   }
 
-int main() {
+int main(void) {
   icu::ErrorCode status;
   const int32_t quantity = 987654321;
 

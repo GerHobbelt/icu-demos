@@ -61,7 +61,7 @@ int show(const char *loc, int n) {
   return 0;
 }
 
-int main()
+int main(void)
 {
 
   //show("es");

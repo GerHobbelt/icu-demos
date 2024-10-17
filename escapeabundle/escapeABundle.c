@@ -23,7 +23,7 @@
 typedef unsigned short UChar;
 
 
-int main()
+int main(void)
 {
   UChar myChar;
   unsigned char  cHi, cLo;

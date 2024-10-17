@@ -33,7 +33,7 @@ void show(void)
 }
 
 
-int main() {
+int main(void) {
   u_setDataDirectory("." U_PATH_SEP_STRING ".." U_FILE_SEP_STRING "data");
 
   show();

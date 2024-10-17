@@ -7,7 +7,7 @@
 #include "locexp.h"
 #include "unicode/ustdio.h"
 
-int main()
+int main(void)
 {
   LXContext lx;
   initContext(&lx);

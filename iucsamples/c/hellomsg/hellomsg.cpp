@@ -12,7 +12,7 @@ using namespace icu;
  * run with LC_ALL=es, LC_ALL=en etc.
  */
 
-int main() {
+int main(void) {
     UErrorCode status = U_ZERO_ERROR;
     LocalPointer<LocaleDisplayNames> 
         names(LocaleDisplayNames::createInstance(Locale::getDefault(), ULDN_DIALECT_NAMES));

@@ -7,7 +7,7 @@
 #include <unicode/unistr.h>
 #include <unicode/ustream.h>
 
-int main() {
+int main(void) {
     icu::ErrorCode status;
     icu::UnicodeString message(u"Welcome to ICU! 😼");
     std::cout << message << std::endl;

@@ -28,7 +28,7 @@ icu::UnicodeString run(const char16_t* pattern, double quantity) {
   return result;
 }
 
-int main() {
+int main(void) {
   const char16_t* pattern1 = u"The room measures "
     "{0, plural, one{1 meter} other{# meters}}"
     " wide.";

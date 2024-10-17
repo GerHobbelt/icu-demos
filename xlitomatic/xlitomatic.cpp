@@ -54,7 +54,7 @@ void showFiles(CTX *c, const char *qs);           // possible files to xlit
 void doTopFrame(CTX *c, const char *qs);          // top level frameset
 void doTranslit(CTX *c, const char *qs);          // transliterated subframe
 int32_t setLocaleAndEncodingAndOpenUFILE(CTX *c); // set up the file
-int main();                                       
+int main(void);                                       
 bool_t parseParams(CTX *c, const char *qs);       // parse qs into CTX
 
 // add a predefined transliteration pipeline, for convenience
@@ -265,7 +265,7 @@ void showList(CTX *c)
   usort_close(mySort);
 }
 
-int main()
+int main(void)
 {
   CTX myContext;
   CTX *c = &myContext;

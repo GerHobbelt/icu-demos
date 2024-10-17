@@ -3,7 +3,7 @@
 #include <unicode/ustdio.h>
 #include <unicode/uloc.h>
 #include <unicode/uldnames.h>
-int main() {
+int main(void) {
   UErrorCode status = U_ZERO_ERROR;
 
   char theirLocale[ULOC_FULLNAME_CAPACITY];

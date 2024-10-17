@@ -77,7 +77,7 @@ void s36_cppsort() {
 }
 
 
-int main() {
+int main(void) {
   s34_coll_init(); /* just show API */
 
   return 0;

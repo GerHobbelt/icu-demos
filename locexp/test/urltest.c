@@ -37,7 +37,7 @@ void checknull( const char *fld)
   }
 }
 
-int main()
+int main(void)
 {
   LXContext mlx;
   initContext(&mlx);

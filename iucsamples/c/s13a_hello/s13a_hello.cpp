@@ -13,7 +13,7 @@
 		return 1; \
 	}
 
-int main() {
+int main(void) {
   icu::ErrorCode status;
   icu::Locale locale("und_001");
   icu::UnicodeString world;

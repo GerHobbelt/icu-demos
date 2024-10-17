@@ -4,7 +4,7 @@
 #include "unicode/uclean.h"
 #include "unicode/ustdio.h"
 
-int main() {
+int main(void) {
     UErrorCode status = U_ZERO_ERROR;
     u_init(&status);
     u_printf_u(u"This is ICU %s! 😼\n", U_ICU_VERSION);

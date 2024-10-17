@@ -57,7 +57,7 @@ void hdr() {
   fprintf(html,"</div>\n");
 }
 
-int main() {
+int main(void) {
   UErrorCode status = U_ZERO_ERROR;
   UNumberFormat *nf = unum_open(UNUM_DECIMAL, NULL, -1, "en_CA", NULL, &status);
   int m,n;
