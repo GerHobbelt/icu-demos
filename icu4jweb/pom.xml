@@ -13,11 +13,16 @@ Copyright © 2016 and later Unicode, Inc. and others. All Rights Reserved.
 
   <name>icu4jweb Maven Webapp</name>
   <url>https://www.icu-project.org</url>
+	<licenses>
+		<license>
+			<name>Unicode-3.0</name>
+		</license>
+	</licenses>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <!-- UPDATE THE VERSION TO BUILD AND DEPLOY -->
@@ -25,7 +30,7 @@ Copyright © 2016 and later Unicode, Inc. and others. All Rights Reserved.
     <dependency>
       <groupId>com.ibm.icu</groupId>
       <artifactId>icu4j</artifactId>
-      <version>71.1</version>
+      <version>74.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
