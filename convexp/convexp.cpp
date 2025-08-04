@@ -32,7 +32,9 @@ TODO:
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#if !defined(_WIN32)
 #include <unistd.h>
+#endif
 #include "printcp.h"
 #include "params.h"
 
