@@ -41,7 +41,7 @@ import com.ibm.richtext.textlayout.attributes.AttributeMap;
 * method.
 * <p>
 * Methods in the formatter which interact with the graphics
-* system generally take as a paramter a <tt>Point</tt> object
+* system generally take as a parameter a <tt>Point</tt> object
 * which represents the "origin" of the text display.  The
 * origin represents the location, in the graphics system used to display the text, of
 * the top-left corner of the text.
@@ -63,7 +63,7 @@ import com.ibm.richtext.textlayout.attributes.AttributeMap;
 * a screen location to an offset in the text.  The method <tt>textOffsetToPoint</tt>
 * converts an offset in the text to an array of two <tt>Point</tt> objects, which can be
 * used to draw a verticle caret, denoting an insertion point.  <tt>highlightArea</tt>
-* accepts two offsets into the text as paramters, and returns an array of <tt>Polygon</tt>
+* accepts two offsets into the text as parameters, and returns an array of <tt>Polygon</tt>
 * objects representing areas where visual highlighting should be applied.
 * <p>
 * Finally, for

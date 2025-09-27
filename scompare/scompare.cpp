@@ -37,7 +37,7 @@
 //                    ready for the result fields to be filled.
 //
 //      output 
-//          The html content (the content string paramter) will have the %%field name%%
+//          The html content (the content string parameter) will have the %%field name%%
 //            fields replaced with the actual contents.
 //
 
